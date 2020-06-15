@@ -1,9 +1,9 @@
 import React from 'react';
-import DefaultLayout from '../layouts';
+import { MetaData } from '../components';
 
 export default () => (
   <>
-    <DefaultLayout />
+    <MetaData />
     <div style={{ color: 'purple' }}>
       <h1>Hello Gatsby!</h1>
       <p>What a world.</p>
