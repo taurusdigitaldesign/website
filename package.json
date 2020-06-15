@@ -20,10 +20,8 @@
   },
   "dependencies": {
     "gatsby": "^2.22.15",
-    "gatsby-plugin-react-helmet": "^3.3.4",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "gh-pages": "^3.0.0",
