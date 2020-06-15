@@ -7,5 +7,5 @@
 module.exports = {
   /* Your site config here */
   pathPrefix: '/website',
-  plugins: []
+  plugins: [`gatsby-plugin-react-helmet`]
 };
