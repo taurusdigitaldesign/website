@@ -1,12 +1,25 @@
-import React from 'react';
-import { MetaData } from '../components';
+import React, { useEffect } from 'react';
+import { MetaData, Section1 } from '../components';
 import DefaultLayout from '../layouts';
 
-export default () => (
-  <>
-    <MetaData />
-    <DefaultLayout>
-      <div>aaaa</div>
-    </DefaultLayout>
-  </>
-);
+export default () => {
+  // useEffect(() => {
+  //   var wow = new window.WOW({
+  //     boxClass: "wow",
+  //     animateClass: "animated",
+  //     offset: 0,
+  //     mobile: false,
+  //     live: true,
+  //   });
+  //   wow.init();
+  // }, []);
+
+  return (
+    <>
+      <MetaData />
+      <DefaultLayout>
+        <Section1 />
+      </DefaultLayout>
+    </>
+  );
+};

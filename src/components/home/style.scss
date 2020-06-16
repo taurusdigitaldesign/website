@@ -1,0 +1,27 @@
+.box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .row {
+    max-width: 1140px;
+
+    div {
+      height: 100%;
+      display: inline-block;
+    }
+
+    div:first-child {
+      width: 540px;
+    }
+
+    div:last-child {
+      width: 475px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
