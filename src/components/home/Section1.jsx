@@ -14,7 +14,7 @@ export default () => (
         </p>
       </div>
       <div className="wow slideInRight" data-wow-delay="300ms">
-        <img src={picCup} />
+        <img src={picCup} alt="" />
       </div>
     </div>
   </div>
