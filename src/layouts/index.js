@@ -1,16 +1,22 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Navbar, Nav } from 'react-bootstrap';
+import picLogo from '../.assets/images/logo.jpg';
 
 const DefaultLayout = (props) => (
-  <Helmet>
-    <link
-      rel="stylesheet"
-      href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    {/* <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script> */}
-    <script src="https://cdn.bootcdn.net/ajax/libs/react-bootstrap/1.1.0-rc.0/react-bootstrap.min.js"></script>
-  </Helmet>
+  <Navbar bg="light" expand="lg">
+    <Navbar.Brand href="#">
+      <img src={picLogo} height="30" className="d-inline-block align-top" alt="logo" />
+      React-Bootstrap
+    </Navbar.Brand>
+    <Navbar.Toggle />
+    <Navbar.Collapse className="justify-content-end">
+      <Nav>
+        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link href="#home">Works</Nav.Link>
+        <Nav.Link href="#link">Contact</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
 );
 
 export default DefaultLayout;
