@@ -1,10 +1,10 @@
 import React from 'react';
 import picCup from './images/awesome-feature.png';
-// import Style from './style.scss';
+import Style from './style.module.scss';
 
 export default () => (
-  <div className="box">
-    <div className="row">
+  <div className={Style.box}>
+    <div className={Style.row}>
       <div className="wow slideInLeft" data-wow-delay="300ms">
         <h2>Lets take your to Next Level</h2>
         <p>
