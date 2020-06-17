@@ -3,9 +3,9 @@ import Style from './workflow.module.scss';
 
 // workflow's data
 const nodes = [
-  { id: '01', text: 'Concept', desc: 'gathering and analyzing requirements then Prototype development' },
-  { id: '02', text: 'Plan', desc: 'make Product Development Lifecycle, the scope document is generated' },
-  { id: '03', text: 'Design', desc: 'design and build the architecture of the product' },
+  { id: '01', text: 'Concept', desc: 'gathering and analyzing requirements, Prototype development' },
+  { id: '02', text: 'Plan', desc: 'make Product Development Lifecycle' },
+  { id: '03', text: 'Design', desc: 'design and build the architecture, the scope document is generated' },
   { id: '04', text: 'Development', desc: 'start writing the code as per the analyzed requirements' },
   { id: '05', text: 'Release', desc: 'deployed product' }
 ];
