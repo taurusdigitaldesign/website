@@ -1,6 +1,6 @@
 import React from 'react';
-import picCup from './images/awesome-feature.png';
-import Style from './style.module.scss';
+import picCoffee from './images/coffee.png';
+import Style from './section1.module.scss';
 
 export default () => (
   <div className={Style.box}>
@@ -14,7 +14,7 @@ export default () => (
         </p>
       </div>
       <div className="wow slideInRight" data-wow-delay="300ms">
-        <img src={picCup} alt="" />
+        <img src={picCoffee} alt="" />
       </div>
     </div>
   </div>
