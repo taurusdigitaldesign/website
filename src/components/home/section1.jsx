@@ -6,11 +6,11 @@ const Section1 = () => (
   <div className={Style.box}>
     <div className={Style.row}>
       <div className="wow slideInLeft" data-wow-delay="300ms">
-        <h2>Lets take your to Next Level</h2>
+        <h2>Boost your business up to high level</h2>
+        <i><b>"We know good design meant that good business."</b></i>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu, lobortis id
-          interdum vitae, interdum eget elit. Curabitur quis urna nulla. Suspendisse potenti. Duis
-          suscipit ultrices maximus.
+          Good design gives us a very intuitive understanding of our options, effectively guiding us
+          to the choice that best suits us
         </p>
       </div>
       <div className="wow slideInRight" data-wow-delay="300ms">
