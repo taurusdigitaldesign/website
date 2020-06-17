@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { MetaData, Banner, Section1, Workflow } from '../components';
+import { MetaData, Banner, Design, Workflow } from '../components';
 import DefaultLayout from '../layouts';
 
 
@@ -21,7 +21,7 @@ export default () => {
       <MetaData />
       <DefaultLayout>
         <Banner />
-        <Section1 />
+        <Design />
         <Workflow />
       </DefaultLayout>
     </>

@@ -1,6 +1,6 @@
 import MetaData from './MetaData';
 import Banner from './home/banner';
-import Section1 from './home/section1';
+import Design from './home/design';
 import Workflow from './home/workflow';
 
-export { MetaData, Banner, Section1, Workflow };
+export { MetaData, Banner, Design, Workflow };

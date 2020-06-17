@@ -1,8 +1,8 @@
 import React from 'react';
 import picCoffee from './images/coffee.png';
-import Style from './section1.module.scss';
+import Style from './design.module.scss';
 
-const Section1 = () => (
+const Design = () => (
   <div className={Style.box}>
     <div className={Style.row}>
       <div className="wow slideInLeft" data-wow-delay="300ms">
@@ -20,4 +20,4 @@ const Section1 = () => (
   </div>
 );
 
-export default Section1;
+export default Design;
