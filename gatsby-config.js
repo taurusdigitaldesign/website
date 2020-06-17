@@ -7,8 +7,15 @@
 module.exports = {
   /* Your site config here */
   pathPrefix: '/website',
-  siteMetadata: {
-    title: 'Taurus Digital Design'
-  },
-  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-sass`]
+  plugins: [
+    `gatsby-plugin-react-helmet`, 
+    `gatsby-plugin-sass`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/.data/`,
+      },
+    },
+  ]
 };

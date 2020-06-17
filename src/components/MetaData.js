@@ -5,11 +5,9 @@ import { Helmet } from 'react-helmet';
 const MetaData = () => {
   const data = useStaticQuery(
     graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
+      {
+        dataJson {
+          title
         }
       }
     `
@@ -27,7 +25,7 @@ const MetaData = () => {
         rel="stylesheet"
         href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
       />
-      <title>{data.site.siteMetadata.title}</title>
+      <title>{data.dataJson.title}</title>
     </Helmet>
   );
 };
