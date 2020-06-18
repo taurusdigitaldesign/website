@@ -1,0 +1,47 @@
+.box {
+    padding: 25px 0;
+    text-align: center;
+
+    span.copyright {
+        text-transform: uppercase;
+        text-transform: none;
+        line-height: 40px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    ul.socialBtns {
+        margin-bottom: 0;
+    }
+    
+    ul.socialBtns li {
+        float: left;
+        list-style: none;
+        margin: 0 15px;
+    }
+    
+    ul.socialBtns li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        font-size: 20px;
+        line-height: 40px;
+        outline: 0;
+        color: #fff;
+        background-color: #222;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+    
+    // ul.socialBtns li a:hover,
+    // ul.socialBtns li a:focus,
+    // ul.socialBtns li a:active {
+    //     background-color: blue;
+    // }
+}

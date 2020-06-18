@@ -1,0 +1,35 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1592465356576'); /* IE9 */
+  src: url('iconfont.eot?t=1592465356576#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPsAAsAAAAACCAAAAOfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDXIMpATYCJAMQCwoABCAFhG0HRRsYBxEVnEvJfhS4scOeW/qZZ8MWteh5L4Lnqc56v6uC6YzAFeQk6yN0kzY3Q02jIhRLYn/q6duSlB0uhPEBYMThtLEE51uW49rToy7AaAIFuge2QQrTAkqQW2QXcSYv6jAEMIkmE6lSrU4T7GjQKAGkT8/uHbHnDOiWcsGOYK1ZqJEFWLAbM407wPzw+/KRfLGDgUWBJjboVrULFd74vz+kJvyf0IYTEE5nA7RloIBMQIP0qHV0QsWJTBSm8xtNMcCOHQPe+L+T94f+/xdFR1HY8V8eCAYKxAoq9QSgUNIpLkxIgcA7Hgx4f0jJQ5K1yp5PrQCuydRIueDNKgZVGn3YFfzkSeAx16wnhctczZY8yYuepqnT2XzJnqglN4qduiTLHhXOWlkya+dBZ3WWLtmyJMhr+bJty0Jk3b5gp7u52zVaMLfsAQemYSpTHOJ2Nx99pgQTnqDNms1y1VomMnG547q7/DVX/rLlQUdTQkb8xGtvddxzFSzfHuR0Nl0lm91uZ9nrpZcHLQ08UON48eVLlxZN2t4ltH1BFdWsUHkNtHqSbC/VtLCqKqh4qSG2MkN8R4YNWNGoquH7zCpX+jTsZOiLfVVRp07ld3aJ/jyUlk/TBvQbkPa0JdeS3/tWNVY0ChvgO7LMELIaZ7C7aYPqIb0n7JrQbFcz/ja7qdGhfXWh1KG+kfdCe9Y/t3TJhTo9KDskvFcjm7Z01Qf7pXwxzUt2SBrZwPhxt17zMdZlDf8mVCmDMmpPmVGt1okm3SxVgj3Kt+qV1jtkRMsfeWVAwNDsI/PyO1sYAMD/C2qNqiCznIZLZaT+qb3G6x87iPL7j9Vs71Pma+x4sKYXfiXuSP7/FzTDhH9HCBb+RiGwRrtiZNTallCB59JUAsUMwMRm+HlB8GcrKYAgcCUIdoIGuGxEpVDYSSRqaiYsOCiEFTvlYZJB9eUOAhiEQrQHkM5UAYIv+2HgzXkofLlL1NRXsBDMZ1jxFQWTZhKwoYNkgnTpRdAoNmD/0DmeiZg1jcpf6LfRSFYcMn8oaxeGMiuK6QfOKFNMWXdfqRKQ8AR34TgcR4ZFuEenWau61HlOdQ/KHE9BykXQKDaA/QOd45l4Y01Ln3+h30YjLVUd/h/K2vUOlGQUAOJDMYOqbuWUdfcVqgSQ8ATcBRuOOMHAUt+vR6cZ7YDYUpNL9QiqyJZXTW+4CzBBd9FiiBItFsLqnT43G5NxaJmHSI9OFSUIAAA=') format('woff2'),
+  url('iconfont.woff?t=1592465356576') format('woff'),
+  url('iconfont.ttf?t=1592465356576') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1592465356576#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  /* font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-GitHub:before {
+  content: "\e612";
+}
+
+.icon-facebook:before {
+  content: "\e801";
+}
+
+.icon-twitter:before {
+  content: "\e9b2";
+}
+

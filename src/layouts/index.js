@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Footer } from '../components';
 import picLogo from '../.assets/images/logo.jpg';
 
 const DefaultLayout = ({children}) => (
@@ -20,6 +21,8 @@ const DefaultLayout = ({children}) => (
     </Navbar>
 
     {children}
+
+    <Footer />
   </div>
 );
 
