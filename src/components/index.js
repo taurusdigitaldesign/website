@@ -1,4 +1,4 @@
-import MetaData from './MetaData';
+import MetaData from './meatadata';
 import Footer from './footer';
 
 import Banner from './home/banner';
