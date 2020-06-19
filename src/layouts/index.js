@@ -14,7 +14,7 @@ const DefaultLayout = ({children}) => (
       <Navbar.Collapse className="justify-content-end">
         <Nav>
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="#home">Works</Nav.Link>
+          <Nav.Link href="/work">Works</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>

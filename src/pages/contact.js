@@ -6,7 +6,9 @@ export default () => (
   <>
     <MetaData />
     <DefaultLayout>
-      <div>contact us</div>
+      <div className="pageContain">
+        <div>contact us</div>
+      </div>
     </DefaultLayout>
   </>
 );
