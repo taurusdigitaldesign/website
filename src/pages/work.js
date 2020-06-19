@@ -1,22 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { MetaData } from '../components';
+import { MetaData, Work } from '../components';
 import DefaultLayout from '../layouts';
-
-export default ({ data }) => {
-  return (
-    <>
-      <MetaData />
-      <DefaultLayout>
-        <div className="pageContain">
-          {data.allMarkdownRemark.edges.map((item) => (
-            <div>{item.node.frontmatter.title}</div>
-          ))}
-        </div>
-      </DefaultLayout>
-    </>
-  );
-};
+import Style from './work.module.scss';
 
 export const query = graphql`
   {
@@ -36,3 +22,16 @@ export const query = graphql`
     }
   }
 `;
+
+export default ({ data }) => (
+  <>
+    <MetaData />
+    <DefaultLayout>
+      <div className={`pageContain ${Style.box}`}>
+        {data.allMarkdownRemark.edges.map((item) => (
+          <Work {...item.node.frontmatter} />
+        ))}
+      </div>
+    </DefaultLayout>
+  </>
+);
