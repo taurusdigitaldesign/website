@@ -2,7 +2,8 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Footer } from '../components';
-import picLogo from '../.assets/images/logo.jpg';
+import picLogo from '../.assets/images/logo.png';
+import Style from './style.module.scss';
 
 const DefaultLayout = ({ children }) => {
   const data = useStaticQuery(
@@ -20,7 +21,7 @@ const DefaultLayout = ({ children }) => {
   return (
     <div>
       <Navbar bg="light" expand="lg" fixed="top">
-        <Navbar.Brand href="/">
+        <Navbar.Brand className={Style.bar} href="/">
           <img src={picLogo} height="30" className="d-inline-block align-top" alt="logo" />
           {data.site.siteMetadata.title}
         </Navbar.Brand>
