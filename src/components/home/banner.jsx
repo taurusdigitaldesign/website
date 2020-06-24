@@ -6,9 +6,7 @@ const Banner = () => (
     <div className={Style.mark}></div>
     <div className={Style.intro}>
       <div className={Style.firstLine}>We Build Creative</div>
-      <div className="intro-lead-in1">
-        Preferred
-      </div>
+      <div>Preferred</div>
       <div className="intro-heading">Product With Our Team</div>
     </div>
   </div>
