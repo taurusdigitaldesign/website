@@ -7,11 +7,15 @@ const Footer = () => {
   const data = useStaticQuery(
     graphql`
       {
-        dataJson {
-          title
-          social {
-            url
+        site {
+          siteMetadata {
             title
+          }
+        }
+        dataJson {
+          social {
+            title
+            url
           }
         }
       }
@@ -23,7 +27,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <span className={Style.copyright}>Copyright &copy; {data.dataJson.title}</span>
+            <span className={Style.copyright}>Copyright &copy; {data.site.siteMetadata.title}</span>
           </div>
           <div className={`col-md-6 ${Style.icons}`}>
             <ul className={Style.socialBtns}>

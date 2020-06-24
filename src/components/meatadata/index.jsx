@@ -6,8 +6,10 @@ const MetaData = () => {
   const data = useStaticQuery(
     graphql`
       {
-        dataJson {
-          title
+        site {
+          siteMetadata {
+            title
+          }
         }
       }
     `
@@ -25,7 +27,7 @@ const MetaData = () => {
         rel="stylesheet"
         href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
       />
-      <title>{data.dataJson.title}</title>
+      <title>{data.site.siteMetadata.title}</title>
     </Helmet>
   );
 };
